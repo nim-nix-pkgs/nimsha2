@@ -11,7 +11,6 @@
   inputs.src-nimSHA2-master.ref   = "refs/heads/master";
   inputs.src-nimSHA2-master.owner = "jangko";
   inputs.src-nimSHA2-master.repo  = "nimSHA2";
-  inputs.src-nimSHA2-master.dir   = "";
   inputs.src-nimSHA2-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
